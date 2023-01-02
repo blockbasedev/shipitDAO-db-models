@@ -13,7 +13,10 @@ const EventSchema = new Schema(
     location: { type: String },
     time: { type: String },
     host: [{ type: String }],
-    moreInfo: { type: String },
+    description: [{ type: String }],
+    eventEmail: { type: String },
+    guest: { type: String },
+    about: { type: String },
     vote: { type: Boolean, default: false },
 
   },
