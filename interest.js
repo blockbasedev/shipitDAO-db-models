@@ -17,4 +17,4 @@ const InterestSchema = new Schema(
   },
 );
 
-export default model('interst', InterestSchema);
+export default model('interest', InterestSchema);
